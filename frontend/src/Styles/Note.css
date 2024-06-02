@@ -1,0 +1,19 @@
+.notes-text{
+    text-overflow: ellipsis;
+    width:fit-content;
+    max-width: 500px;
+    white-space: nowrap; 
+    overflow: hidden;
+    padding:5px 10px
+}
+
+.single-note > svg{
+    padding:10px
+}
+
+.notes-options{
+    flex-direction: column;
+}
+.notes-options > svg{
+    padding:5px 10px
+}
